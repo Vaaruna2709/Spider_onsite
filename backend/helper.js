@@ -11,7 +11,7 @@ async function sendEmail(recipient, subject, message) {
             secure: true, // true for 465, false for 587
             auth: {
                 user: 'vr.050306@gmail.com',
-                pass: 'yabi cgxx prrg tvaz',
+                pass: 'yabi cgxx prrg tvaz',//app password
             },
         });
         
