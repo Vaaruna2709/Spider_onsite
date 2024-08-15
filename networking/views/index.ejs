@@ -1,0 +1,16 @@
+<% layout("./layouts/boilerplate.ejs")%>
+<body>
+    <h4>Server is Up for</h4>
+    <% if(serverUpArr.length>0){%>
+       <% for(let serverUp of serverUpArr){%>
+            <p><%=serverUp%></p>
+        <%}%>
+   <% }%>
+   <h4>Server is Down for</h4>
+    <% if(serverDownArr.length>0){%>
+        <% for(let serverDown of serverDownArr){%>
+             <p><%=serverDown%></p>
+         <%}%>
+     <%}%>
+     
+</body>
